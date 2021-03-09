@@ -1,2 +1,4 @@
+com/tom/Student.java
+ com.tom.Student
 com/tom/HelloWorld.java
  com.tom.HelloWorld
