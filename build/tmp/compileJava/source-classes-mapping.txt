@@ -2,3 +2,7 @@ com/tom/Student.java
  com.tom.Student
 com/tom/HelloWorld.java
  com.tom.HelloWorld
+com/tom/Tester.java
+ com.tom.Tester
+com/tom/GraduateStudent.java
+ com.tom.GraduateStudent

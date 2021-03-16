@@ -7,6 +7,10 @@ public class Student {
     int math;
     int english;
 
+    public Student() {
+        //super();
+    }
+
    public Student(String id, String name, int math, int english) {
        this.id = id;
        this.name = name;

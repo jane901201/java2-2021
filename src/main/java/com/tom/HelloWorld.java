@@ -11,12 +11,16 @@ public class HelloWorld {
                 new Student("0004", "Bobo", 30, 40)
 
         };
+        Box box3 = new Box(1,1,1, 60);
+        Box box5 = new Box(1,1,1,50);
+
+        GraduateStudent gs = new GraduateStudent();
 
         for(int i =0; i < students.length; i++) {
             students[i].print();
         }
 
+        gs.print();
 
-//        System.out.println("Hello World");
     }
 }
