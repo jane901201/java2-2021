@@ -1,4 +1,4 @@
-package com.tom;
+package com.tom.stu;
 
 public class Student {
 
@@ -8,7 +8,7 @@ public class Student {
     int english;
 
     public Student() {
-        //super();
+        super();
     }
 
    public Student(String id, String name, int math, int english) {
