@@ -1,6 +1,6 @@
 package com.tom.stu;
 
-public class GraduateStudent extends Student{
+public class GraduateStudent extends Student implements  Mailer{
 
     int thesis;
 
@@ -13,5 +13,9 @@ public class GraduateStudent extends Student{
     @Override
     public void print() {
         System.out.println(id + "\t" + name + "\t" + english + "\t" + (english + math)/2 + "\t" + thesis);
+    }
+
+    public void mail() {
+
     }
 }
