@@ -2,17 +2,18 @@ package com.tom.box;
 
 public class Box {
 
-
+    public String name;
     public int length;
     public int width;
-    public int weight;
+    public int height;
     public int[] array = new int[3];
     public  int price;
 
-    public Box(int length, int width, int weight, int price) {
+    public Box(String name, int length, int width, int height, int price) {
+        this.name = name;
         this.length = length;
         this.width = width;
-        this.weight = weight;
+        this.height = height;
         this.price = price;
     }
 
@@ -23,7 +24,7 @@ public class Box {
     public void arraySort() {
         array[0] = length;
         array[1] = width;
-        array[2] = weight;
+        array[2] = height;
         for(int i = 0; i < array.length; i++) {
             for(int j = i; j < array.length; j++) {
                 if(array[i] > array[j]) {
@@ -52,5 +53,9 @@ public class Box {
             }
         }
         return true;
+    }
+
+    public String getName() {
+        return name;
     }
 }

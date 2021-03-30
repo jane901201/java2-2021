@@ -14,17 +14,27 @@ public class BoxSelller {
 
         int item[] = {0, 0, 0};
 
-        Box box3 = new Box(2,3,4, 60);
-        Box box5 = new Box(3,2,1,50);
+        Box box3 = new Box("box3", 10,10,10, 60);
+        Box box5 = new Box("box5",10,20,20,90);
         Box boxes[] = {box3, box5};
         box3.arraySort();
         box5.arraySort();
 
-        box3.printArray();
-        box5.printArray();
+        //box3.printArray();
+        //box5.printArray();
 
-        System.out.println("Please enter your object size");
+        //System.out.println("Please enter your object size");
         for(int i = 0; i < item.length; i++) { //enter number
+            switch (i) {
+                case 0:
+                    System.out.println("Please enter your object length");
+                    break;
+                case 1:
+                    System.out.println("Please enter your object width");
+                    break;
+                case 2:
+                    System.out.println("Please enter your object weight");
+            }
             item[i] = scanner.nextInt();
         }
 
@@ -52,7 +62,7 @@ public class BoxSelller {
         for (int i = 0; i < boxes.length; i++) { //compare
             boolean check = boxes[i].compareToItem(item);
             if(check == true) {
-                System.out.println("Your best choose is " + boxes[i] + ", the total is " + boxes[i].price);
+                System.out.println("Your best choose is " + boxes[i].getName() + ", the total is " + boxes[i].price);
                 break;
             }
             if(i == (boxes.length) - 1 && check == false) {
