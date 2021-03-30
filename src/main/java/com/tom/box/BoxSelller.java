@@ -17,8 +17,14 @@ public class BoxSelller {
         Box box3 = new Box("box3", 10,10,10, 60);
         Box box5 = new Box("box5",10,20,20,90);
         Box boxes[] = {box3, box5};
-        box3.arraySort();
-        box5.arraySort();
+
+        for (Box box:
+             boxes) {
+            box.arraySort();
+        }
+
+        //box3.arraySort();
+        //box5.arraySort();
 
         //box3.printArray();
         //box5.printArray();
