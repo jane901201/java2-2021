@@ -1,4 +1,4 @@
-package com.tom.TEST;
+package com.tom.test;
 
 public class Racing {
 

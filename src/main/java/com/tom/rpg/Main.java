@@ -1,4 +1,4 @@
-package com.tom.RPG;
+package com.tom.rpg;
 
 public class Main {
 }

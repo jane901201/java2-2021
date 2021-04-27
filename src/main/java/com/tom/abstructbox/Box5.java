@@ -1,4 +1,4 @@
-package com.tom.abstructBox;
+package com.tom.abstructbox;
 
 public class Box5 extends Box{
 

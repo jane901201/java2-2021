@@ -1,4 +1,4 @@
-package race;
+package com.tom.race;
 
 public class HorseRunnble implements Runnable{
     String name = "horse3";
