@@ -1,7 +1,7 @@
 package com.tom.collection;
 
 import java.util.ArrayList;
-import java.uitl.*;
+import java.util.*;
 
 public class Tester {
 
@@ -13,7 +13,7 @@ public class Tester {
         t.add(4);
         t.add(2);
         System.out.println(t.size());
-        for (String a:t
+        for (int a:t
              ) {
             System.out.println(a);
         }
