@@ -1,13 +1,21 @@
 package com.tom.collection;
 
 import java.util.ArrayList;
+import java.uitl.*;
 
 public class Tester {
 
 
     public static void main(String[] args) {
+
+        TreeSet<Integer> t = new TreeSet<Integer>();
+        t.add(3);
+        t.add(4);
+        t.add(2);
+        System.out.println(t.size());
         ArrayList list = new ArrayList();//異質
         ArrayList<Integer> nums = new ArrayList<Integer>();//要使用原本的Class，不能用簡便的primitive
+
         Box box = new Box();
         Tester tester = new Tester();
         Integer integer = new Integer(12);
