@@ -13,6 +13,10 @@ public class Tester {
         t.add(4);
         t.add(2);
         System.out.println(t.size());
+        for (String a:t
+             ) {
+            System.out.println(a);
+        }
         ArrayList list = new ArrayList();//異質
         ArrayList<Integer> nums = new ArrayList<Integer>();//要使用原本的Class，不能用簡便的primitive
 
